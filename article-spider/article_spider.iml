@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/c3p0-0.9.5-pre8.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-codec-1.3.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-codec-1.6.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-codec-1.9.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-collections-3.2.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-collections-3.2.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-httpclient-3.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-io-1.4.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-io-2.4.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-lang-2.4.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-lang3-3.3.2.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-logging-1.1.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/commons-logging-1.1.3.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/cssparser-0.9.5.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/cssparser-0.9.14.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/fastjson-1.2.0.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/fluent-hc-4.3.6.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/httpclient-4.3.3.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/httpclient-4.3.6.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/httpclient-cache-4.3.6.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/httpcore-4.3.2.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/httpcore-4.3.3.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/httpmime-4.3.3.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/httpmime-4.3.6.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/jetty-http-8.1.15.v20140411.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/jetty-io-8.1.15.v20140411.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/jetty-util-8.1.15.v20140411.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/jetty-websocket-8.1.15.v20140411.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/jna-4.1.0 (1).jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/jna-platform-4.1.0.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/jsoup-1.8.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/log4j-api-2.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/log4j-core-2.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/mchange-commons-java-0.2.7.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/mysql-connector-java-5.1.30-bin.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/nekohtml-1.9.11.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/nekohtml-1.9.21.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/poi-3.11-20141221.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/poi-ooxml-3.11-20141221.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/poi-ooxml-schemas-3.11-20141221.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/quartz-all-1.6.1-RC1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/sac-1.3.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/serializer-2.7.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/sqlite-jdbc-3.8.7.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/xalan-2.7.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/xercesImpl-2.8.1.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/xercesImpl-2.11.0.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/xml-apis-1.3.04.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/xml-apis-1.4.01.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/xmlbeans-2.6.0.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/htmlunit-2.15.jar" />
+    <libelement value="file://C:/Users/tianbaochao/svnwork/sns/tools/article_spider/lib/htmlunit-core-js-2.15.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

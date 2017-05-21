@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Properties>
+  	<Property name="filename">/Users/worgen/Desktop/eclipse.log</Property>
+  	<Property name="spider">/Users/worgen/Downloads/spider.log</Property>
+  	<Property name="spider_all">/Users/worgen/Downloads/spider_all.log</Property>
+  	<Property name="spider_error">/Users/worgen/Downloads/spider_error.log</Property>
+    <Property name="spider_article">/Users/worgen/Downloads/spider_article.log</Property>
+  </Properties>
+
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss} %M:%L %-5level %logger{36} - %msg%n"/>
+    </Console>
+    <File name="File" fileName="${filename}">
+    	<PatternLayout>
+    		<Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+    	</PatternLayout>
+    </File>
+    <File name="Spider" fileName="${spider}">
+    	<PatternLayout>
+    		<Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+    	</PatternLayout>
+    </File>
+    <File name="SpiderAll" fileName="${spider_all}">
+    	<PatternLayout>
+    		<Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+    	</PatternLayout>
+    </File>
+    <File name="SpiderError" fileName="${spider_error}">
+    	<PatternLayout>
+    		<Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+    	</PatternLayout>
+    </File>
+  </Appenders>
+  <appender name="FILE-ERROR" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <param name="Append" value="true" />
+        <param name="file" value="/Users/worgen/Desktop/error.log" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d [%7r] %M %6p - %30.30c - %m \n" />
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMin" value="ERROR" />
+        </filter>
+    </appender>
+  <Loggers>
+  	<!-- 定义log的默认输出级别和方式,目前是console和文件 -->
+    <Root level="debug">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="File"/>
+    </Root>    
+    <!-- 只输出到文件的logger -->
+    <Logger name="File" level="debug" additivity="false" >
+      <AppenderRef ref="File"/>
+    </Logger>
+    <!-- spider logger -->
+    <Logger name="Spider" level="debug" additivity="false" >
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="Spider"/>
+      <AppenderRef ref="SpiderAll"/>
+    </Logger>
+    <Logger name="Spider" level="debug" additivity="false" >
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="Spider"/>
+      <AppenderRef ref="SpiderAll"/>
+    </Logger>
+    <Logger name="SpiderAll" level="debug" additivity="false" >
+      <AppenderRef ref="SpiderAll"/>
+    </Logger>
+    <Logger name="SpiderError" level="debug" additivity="false" >
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="SpiderError"/>
+      <AppenderRef ref="SpiderAll"/>
+    </Logger>
+  </Loggers>
+</Configuration>
